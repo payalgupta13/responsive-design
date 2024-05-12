@@ -3,6 +3,38 @@
     <head>
         <title>Media Quaries</title>
         <style>
+            body{
+                background-color: #f5f7fb;
+            }
+            .card{
+                width:300px;
+                /* height: 200px; */
+                background-color: white;
+                /* border: 1px solid red; */
+                box-shadow: 0 0 10px 5px grey;
+                border-radius: 7px;
+                padding: 10px;
+            }
+            .header{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .card-img{
+                height: 35px;
+                box-shadow: 0 0 10px 2px grey;
+                padding: 3px;
+                border-radius: 5px;
+            }
+            .description{
+                font-size: 15px;
+                padding: 0 20px;
+                margin: 0;
+            }
+            .card-Heading{
+                font-size: 20px;
+                margin-left: 7px;
+            }
             /* small Device */
             @media screen and (max-width: 600px){
             }
@@ -21,6 +53,16 @@
         </style>
     </head>
     <body>
-
+        <div class="card">
+            <div class="header">
+                <img src="https://cdn.roadtocode.org/unique-features/professional-network-md.png"
+                class="card-img">
+                <h1 class="card-Heading">Proffesional Network</h1>
+            </div>
+            <p class="description">
+                Unlock opportunities by learning correct way of using Peerlist and 
+                LinkedIn for hunting jobs and internships.
+            </p>
+        </div>
     </body>
 </html>
